@@ -6,9 +6,11 @@ public class Project1 {
         Scanner in = new Scanner(System.in);
         System.out.println("Last name: ");
         String Last = in.nextLine();
+
         Scanner in1 = new Scanner(System.in);
         System.out.println("Ferst name: ");
         String Ferst = in1.nextLine();
+
         Scanner in2 = new Scanner(System.in);
         System.out.println("Otcestvo name: ");
         String Otcestvo = in2.nextLine();

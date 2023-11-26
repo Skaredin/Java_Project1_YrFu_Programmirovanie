@@ -5,8 +5,10 @@ public class Project2 {
     {
         System.out.println("Project 2 Sam");
         Scanner in = new Scanner(System.in);
+
         System.out.println("Last name: ");
         String Last = in.nextLine();
+
         System.out.println("Let age: ");
         int age = in.nextInt();
 

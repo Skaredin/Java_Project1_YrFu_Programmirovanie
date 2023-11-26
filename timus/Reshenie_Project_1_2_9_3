@@ -1,0 +1,73 @@
+1 Задание (Project1)
+
+import java.util.Scanner; // Системная библеотека
+
+public class Project1 { //Класс проекта (Сылка на него)
+    public static void main(String[] args) //вызов системного аперанта
+    {System.out.println("Project 1 Sam"); //Первое задание самостоятельной выводится на экран (в коде)
+
+        Scanner in = new Scanner(System.in); // Присвоение системой(Запоминание)
+        System.out.println("Last name: "); //Выводит сообщение введите Имя
+        String Last = in.nextLine(); //Поле вода имени
+
+        Scanner in1 = new Scanner(System.in); // Присвоение системой(Запоминание)
+        System.out.println("Ferst name: "); //Выводит сообщение введите Фамилию
+        String Ferst = in1.nextLine(); //Поле вода Фамилии
+
+        Scanner in2 = new Scanner(System.in);// Присвоение системой (Запоминание)
+        System.out.println("Otcestvo name: ");//Выводит сообщение введите Отчество
+        String Otcestvo = in2.nextLine();//Поле вода Отчество
+
+
+        System.out.println("Hello ");  System.out.println("Last: " + Last); System.out.println("Ferst: " + Ferst); System.out.println("Otcestvo: " + Otcestvo); // Выводит на экран данные которые сохраняли
+        in.close();// сбросить
+    }
+}
+
+
+2 Задание (Project2)
+
+import java.util.Scanner; // Системная библеотека
+
+public class Project2 { //Класс проекта (Сылка на него)
+    public static void main(String[] args) //вызов системного аперанта
+    {
+        System.out.println("Project 2 Sam"); //Первое задание самостоятельной выводится на экран (в коде)
+        Scanner in = new Scanner(System.in); // Присвоение системой(Запоминание)
+
+        System.out.println("Last name: "); //Выводит сообщение введите Имя
+        String Last = in.nextLine(); //Поле вода
+
+        System.out.println("Let age: "); //Выводит сообщение введите сколько лет
+        int age = in.nextInt(); //Поле вода
+
+
+        System.out.println("Hello ");  System.out.println("Last: " + Last); System.out.println("Let: " + age); // Выводит на экран данные которые сохраняли
+        in.close();// сбросить
+    }
+}
+
+
+3 Задание (Project3)
+
+public class Project3 { //Класс проекта (Сылка на него)
+    public static void main(String[] args) //вызов системного аперанта
+    {
+        Scanner scanner = new Scanner(System.in); //Присвоение
+        System.out.println("day "); // Вывод сообщения
+        String date = scanner.next(); //Поле дата ввода
+
+        System.out.println("month ");// Вывод сообщения
+        String date2 = scanner.next(); //Поле дата ввода
+
+        System.out.println("year ");// Вывод сообщения
+        String date3 = scanner.next(); //Поле дата ввода
+
+        System.out.println("set date "+date+"."+date2+"."+date3);// Вывод сообщения
+
+    }
+
+}
+
+
+
